@@ -1,0 +1,113 @@
+.blocsblancs-title h4{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding: 0;
+    color: #393939;
+    position: relative;
+    box-sizing: border-box;
+    font-family: "sofia-pro",Sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    text-align:center;
+}
+.blocs-blancs{
+    width: 100%;
+    display: flex;
+
+}
+.blocs-blancs p {
+    color: #393939;
+    font-family: "sofia-pro",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 0 30px;
+    word-break: normal;
+}
+.blocs-blancs p:after{
+    content: "";
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+}
+.bloc-blanc1{
+    background-color: #fff;
+    box-shadow: 0 0 17px 1px rgba(0,0,0,0.06);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin: 0 23px 0 0;
+    padding: 45px 25px 35px 25px;
+    width: 100%;
+}
+.bloc-blanc2{
+    background-color: #fff;
+    box-shadow: 0 0 17px 1px rgba(0,0,0,0.06);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin: 0 16px 0 7px;
+    padding: 45px 25px 35px 25px;
+    width: 100%;
+}
+.bloc-blanc3{
+    background-color: #fff;
+    box-shadow: 0 0 17px 1px rgba(0,0,0,0.06);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin: 0 07px 0 15px;
+    padding: 45px 25px 35px 25px;
+    width: 100%;
+}
+.bloc-blanc4{
+    background-color: #fff;
+    box-shadow: 0 0 17px 1px rgba(0,0,0,0.06);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin: 0 0 0 23px;
+    padding: 45px 25px 35px 25px;
+    width: 100%;
+}
+div.img{
+    max-width: 26%;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.read {
+    padding: 20px 0 0 0;
+    font-family: "sofia-pro",Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .93px;
+    background-color: #ff7e65;
+    border-radius: 0;
+    padding: 13px 20px 13px 20px;
+    width: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    position: relative;
+   
+}
+.button{
+    text-decoration: inherit;
+    justify-content: center;
+    order: 10;
+    display: inline-block;
+    flex-grow: 1
+}
