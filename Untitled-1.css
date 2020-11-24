@@ -1,0 +1,31 @@
+body{
+    background-color: #ffcb65;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5em;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.pulse {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    border: 2px orange;
+    animation: scaleout 1.0s infinite ease-in-out;
+  }
+  
+  @keyframes pulse {
+    from{
+      transform: scale(0); 
+    } 
+    to {
+      transform: scale(1);
+      opacity: 0; 
+    }
+  }
